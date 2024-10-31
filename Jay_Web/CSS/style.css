@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Oxanium', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+/* Header styles */
+header {
+    background-color: #EACACB;
+    text-align: center;
+    padding: 30px 0;
+}
+header h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+header img {
+    width: 30%;
+    height: 10%;
+}
+.button {
+    color: #6f6f6f;
+    text-decoration: none;
+    font-weight: 700;
+    border: 1px solid #6f6f6f;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 12px;
+}
+.button:hover{
+ background-color: #6f6f6f;
+ color: #fff;
+}
+nav {
+    background-color: #E2B3A3;
+    width: 100%;
+    height: 62px;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family:Verdana,sans-serif;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+nav li {
+    display: inline;
+    margin-right: 10vw;
+    margin-left: 85px;
+}
+nav ul {
+    padding-top: 12px;
+    padding-left: 85px;
+}
+.outline {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+    background-image: url(../images/background.webp);
+    background-size: cover;
+    height: 85vh;
+}
+.outline img {
+    
+    width: 545px;
+    height: 396px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.intro {
+    max-width: auto;
+    background-color: #FEECE6;
+    width: 1080px;
+    height: 396px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.intro h2 {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+}
+.intro p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+/* More About Jay */
+.more {
+    padding: 30px;
+    background-color: #ffffff;
+}
+.more h3 {
+    text-align: start;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family:Verdana,sans-serif;
+}
+.movie {
+    display: flex;
+    align-items: center;
+}
+.movie p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 715px;
+    height: 320px;
+}
+.movie img {
+    width: 320px;
+    height: 320px;
+    margin-right: 15px;
+    border-radius: 16px;
+}
+.shop img {
+    margin-right: 15px;
+    margin-left: 330px;
+    border-radius: 8px;
+}
+.shop p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 320px;
+}
+.shop {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.game img {
+    width: 320px;
+    height: 320px;
+    margin-right: 15px;
+    margin-left: 183px;
+    border-radius: 8px;
+}
+.game p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 638px;
+    height: 320px;
+}
+.game {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.text {
+    background-color: #FCE9DA;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    max-width: auto;
+    text-align: center;
+    font-size: 25px;
+}
+footer {
+    background-color: #EACACB;
+    text-align: center;
+    padding: 20px 0;
+}
+footer p {
+    flex: 1; 
+    text-align: left; 
+    margin-left: 15px;
+    color: #6f6f6f;
+}
+.social_media img {
+    width: 25px;
+    height: 25px;
+    align-self: center;
+    justify-self: left;
+    object-fit: cover;
+    margin-top: 15px;
+    margin-right:15px;
+}
